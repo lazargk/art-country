@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/art-country/static/css/main.2d534f99.chunk.css",
-    "main.js": "/art-country/static/js/main.a505b9fa.chunk.js",
-    "main.js.map": "/art-country/static/js/main.a505b9fa.chunk.js.map",
+    "main.css": "/art-country/static/css/main.acb13fa4.chunk.css",
+    "main.js": "/art-country/static/js/main.79b13fdf.chunk.js",
+    "main.js.map": "/art-country/static/js/main.79b13fdf.chunk.js.map",
     "runtime-main.js": "/art-country/static/js/runtime-main.c26be132.js",
     "runtime-main.js.map": "/art-country/static/js/runtime-main.c26be132.js.map",
     "static/js/2.b3b13014.chunk.js": "/art-country/static/js/2.b3b13014.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.b18203bf.chunk.js": "/art-country/static/js/3.b18203bf.chunk.js",
     "static/js/3.b18203bf.chunk.js.map": "/art-country/static/js/3.b18203bf.chunk.js.map",
     "index.html": "/art-country/index.html",
-    "static/css/main.2d534f99.chunk.css.map": "/art-country/static/css/main.2d534f99.chunk.css.map",
-    "static/js/2.b3b13014.chunk.js.LICENSE.txt": "/art-country/static/js/2.b3b13014.chunk.js.LICENSE.txt"
+    "static/css/main.acb13fa4.chunk.css.map": "/art-country/static/css/main.acb13fa4.chunk.css.map",
+    "static/js/2.b3b13014.chunk.js.LICENSE.txt": "/art-country/static/js/2.b3b13014.chunk.js.LICENSE.txt",
+    "static/media/cat.562d76b5.jpg": "/art-country/static/media/cat.562d76b5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c26be132.js",
     "static/js/2.b3b13014.chunk.js",
-    "static/css/main.2d534f99.chunk.css",
-    "static/js/main.a505b9fa.chunk.js"
+    "static/css/main.acb13fa4.chunk.css",
+    "static/js/main.79b13fdf.chunk.js"
   ]
 }
