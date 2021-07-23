@@ -1,22 +1,28 @@
-// import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
+import "./App.css";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Picture from "./components/Picture";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <header className="App-header">
-        
-        <p>
-          Hello
-        </p>
+        <Navbar />
       </header>
-      
-      <main>
-      <article>This is article about me</article>
+      <main className="main-container">
+        <Picture />
+        <Picture />
+        <Picture />
+        <Picture />
+        <Picture />
+        <Picture />
+        <Picture />
+        <Picture />
+        <Picture />
+        <Picture />
+        <Picture />
       </main>
-      
+      <Footer />
     </div>
   );
 }
