@@ -1,19 +1,9 @@
-import Picture from "./Picture";
+
 
 const Main = () => {
   return (
     <div>
-      <Picture />
-      <Picture />
-      <Picture />
-      <Picture />
-      <Picture />
-      <Picture />
-      <Picture />
-      <Picture />
-      <Picture />
-      <Picture />
-      <Picture />
+      <p>home content</p>
     </div>
   );
 };
