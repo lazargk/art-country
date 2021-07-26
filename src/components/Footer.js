@@ -1,7 +1,7 @@
-const Footer = () =>{
-    return <footer>
-        Here will be footer info
-    </footer>
-}
+import './Footer.css'
+
+const Footer = () => {
+  return <p className="footer">Here will be footer info</p>;
+};
 
 export default Footer;

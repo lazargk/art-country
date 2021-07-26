@@ -1,29 +1,33 @@
 import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Picture from "./components/Picture";
+// import Picture from "./components/Picture";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Main from "./components/Main";
+import Contacts from "./components/Contacts";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <Router>
+      <div className="App">
+        <header className="App-header container">
           <Navbar />
         </header>
-      <main className="main-container">
-        <Picture />
-        <Picture />
-        <Picture />
-        <Picture />
-        <Picture />
-        <Picture />
-        <Picture />
-        <Picture />
-        <Picture />
-        <Picture />
-        <Picture />
-      </main>
-      <Footer />
-    </div>
+        <main className="main-container container">
+          <Switch>
+            <Route path="/contacts">
+              <Contacts />
+            </Route>
+            <Route path="/">
+              <Main />
+            </Route>
+          </Switch>
+        </main>
+        <footer className="container">
+          <Footer />
+        </footer>
+      </div>
+    </Router>
   );
 }
 
