@@ -1,12 +1,8 @@
 import './Picture.css'
-import CatPhoto from '../img/cat.jpg'
 
-const Picture = ({p}) =>{    
-    if (null == p) {
-        p = CatPhoto
-    }
+const Picture = ({p}) =>{        
     return <article className="Picture">
-        <img src={p} alt="picture"/>
+        <img src={p} alt="painting"/>
         <p></p>
     </article>
 }

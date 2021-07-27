@@ -6,7 +6,7 @@ import Logo from "../icon/brush48px.png"
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo"><img src={Logo}/></div>
+      <div className="logo"><img src={Logo} alt="logo"/></div>
       <ul className="menu">
         <li>
           <Link to={SUB_URL + "/"} className="menu-link">
