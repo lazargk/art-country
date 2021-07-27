@@ -1,10 +1,13 @@
 import './Picture.css'
 import CatPhoto from '../img/cat.jpg'
 
-const Picture = () =>{
+const Picture = ({p}) =>{    
+    if (null == p) {
+        p = CatPhoto
+    }
     return <article className="Picture">
-        <img src={CatPhoto} alt="cat"/>
-        <p>Cat is on the snow</p>
+        <img src={p} alt="picture"/>
+        <p></p>
     </article>
 }
 

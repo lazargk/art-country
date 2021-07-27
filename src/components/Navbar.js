@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import {SUB_URL} from '../App';
+import Logo from "../icon/brush48px.png"
 
 const Navbar = () => {
   return (
     <nav className="navbar">
+      <div className="logo"><img src={Logo}/></div>
       <ul className="menu">
         <li>
           <Link to={SUB_URL + "/"} className="menu-link">

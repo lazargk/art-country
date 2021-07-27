@@ -4,9 +4,11 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Main from "./components/Main";
 import Contacts from "./components/Contacts";
-import Pictures from "./components/Pictures"
+import Pictures from "./components/Pictures";
+import Awards from "./components/Awards";
+import Volunteering from "./components/Volunteering";
 
-export const SUB_URL = "/art-country";
+export const SUB_URL = ""; //"/art-country";
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
         <header className="App-header container">
           <Navbar />
         </header>
-        <main className="main-container container">
+        <main className="container">
           <Switch>
             <Route path={SUB_URL + "/contacts"}>
               <Contacts />
@@ -23,7 +25,12 @@ function App() {
             <Route path={SUB_URL + "/pictures"}>
               <Pictures />
             </Route>
-
+            <Route path={SUB_URL + "/awards"}>
+              <Awards />
+            </Route>
+            <Route path={SUB_URL + "/volunteering"}>
+              <Volunteering />
+            </Route>
             <Route path={SUB_URL + "/"}>
               <Main />
             </Route>
